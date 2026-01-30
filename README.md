@@ -5,8 +5,8 @@ It fetches random activity suggestions from the **[Bored API](https://bored.api.
 
 Built as a JavaScript exercise during my web development studies.
 
-![Activity Finder preview](<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/a55bfaf8-291a-43ca-9bbf-b2f86db272b4" />
-)  
+<img width="1918" height="969" alt="image" src="https://github.com/user-attachments/assets/8edfee7d-14e1-4ab2-8ede-54cf794519a4" />
+
 
 ## Features
 
@@ -26,4 +26,4 @@ Built as a JavaScript exercise during my web development studies.
 
 
 GitHub pages page link:
-[ACtivity Finder](http://127.0.0.1:5500/Javascript%202/uppgift-5/index.html)
+[Activity Finder](https://swiderekm.github.io/Activity-Finder/)
