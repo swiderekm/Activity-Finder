@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bored Activity Finder</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Activity Finder</h1>
+            <p>Find something cool to do – Right Now!</p>
+        </header>
+
+        <main class="filters-and-result">
+
+            <aside class="filters">
+
+                <div class="filter-group radioCont">
+                    <h3>Amount of people</h3>
+                    <div class="radio-options">
+                        <label class="radio-label">
+                            <input type="radio" name="numbers" id="radio0" value="any" checked>
+                            <span>Any</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="numbers" id="radio1" value="1">
+                            <span>1</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="numbers" id="radio2" value="2">
+                            <span>2</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="numbers" id="radio3" value="3">
+                            <span>3</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="numbers" id="radio4" value="4">
+                            <span>4</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Type of activity</h3>
+                    <select name="" id="dropdown" class="styled-select">
+                        <option value="any">— Any —</option>
+                        <option value="education">Education</option>
+                        <option value="recreational">Recreational</option>
+                        <option value="social">Social</option>
+                        <option value="diy">DIY (Do It Yourself)</option>
+                        <option value="charity">Charity</option>
+                        <option value="cooking">cooking</option>
+                        <option value="relaxation">Relaxation</option>
+                        <option value="music">Music</option>
+                        <option value="busywork">Busywork</option>
+                    </select>
+                </div>
+
+                <div class="filter-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="isFree" id="isFree">
+                        <span>Only free activities</span>
+                    </label>
+                </div>
+
+                <button id="render" class="fetch-btn">Find things to do</button>
+
+            </aside>    
+            <section class="result-area">
+                <div id="container" class="activity-card">
+                    <div class="placeholder">
+                        <p>Press the button to find activities</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
