@@ -26,4 +26,4 @@ Built as a JavaScript exercise during my web development studies.
 
 
 GitHub pages page link:
- - 
+[https://swiderekm.github.io/Activity-Finder/](url)
