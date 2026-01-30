@@ -1,8 +1,9 @@
-const renderBtn   = document.querySelector('#render');
-const dropdown    = document.querySelector('#dropdown');
-const isFree      = document.querySelector('#isFree');
-const container   = document.querySelector('#container');
+const renderBtn = document.querySelector('#render');
+const dropdown = document.querySelector('#dropdown');
+const isFree = document.querySelector('#isFree');
+const container = document.querySelector('#container');
 const selectedRadio = document.querySelector('input[name="numbers"]:checked');
+
 function getParticipants() {
   const selected = document.querySelector('input[name="numbers"]:checked');
   return selected ? selected.value : '';
@@ -45,4 +46,5 @@ const fetchAndShowActivity = async () => {
       <p><small>Accessibility: ${activity.accessibility}</small></p>
     `;
 }
+
 renderBtn.addEventListener('click', fetchAndShowActivity);
